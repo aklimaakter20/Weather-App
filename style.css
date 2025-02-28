@@ -77,3 +77,37 @@ body{
     font-size: 28px;
     margin-top: -6px;
 }
+@media (max-width: 480px) {
+   .card{
+    width: 350px;
+   }
+   .search input{
+    padding: 20px 15px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.search button{
+    width: 40px;
+    height: 40px;
+}
+.weather-icon{
+    width: 120px;
+}
+.weather h2{
+    font-size: 24px;
+}
+.col img{
+    width: 20px;
+}
+.humidity, .wind{
+    font-size: 18px;
+}
+.temp{
+    font-size: 20px;
+}
+.city{
+    font-size: 20px;
+}
+}
